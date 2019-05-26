@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface FIRAnalytics (AppDelegate)
 
+
 /**
  * Handles events related to a URL session that are waiting to be processed.
  *

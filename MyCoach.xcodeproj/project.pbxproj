@@ -7,26 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2807B802229455240037A003 /* MyCoach in Resources */ = {isa = PBXBuildFile; fileRef = 2807B801229455230037A003 /* MyCoach */; };
-		2819ECB622930ACB00ABC4A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819ECB522930ACB00ABC4A7 /* ViewController.swift */; };
+		2807B814229481A50037A003 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 2807B810229481A50037A003 /* Contents.json */; };
+		2807B8272295B53D0037A003 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807B8262295B53D0037A003 /* HomeViewController.swift */; };
 		2825417A2292EB0200A60B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282541792292EB0200A60B1D /* AppDelegate.swift */; };
 		2825417F2292EB0200A60B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2825417D2292EB0200A60B1D /* Main.storyboard */; };
 		282541812292EB0300A60B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282541802292EB0300A60B1D /* Assets.xcassets */; };
 		282541842292EB0300A60B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282541822292EB0300A60B1D /* LaunchScreen.storyboard */; };
-		2825418C2292FA9900A60B1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2825418B2292FA9900A60B1D /* GoogleService-Info.plist */; };
+		2875BAFE22982A9B00C8844F /* RegisterNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875BAFD22982A9B00C8844F /* RegisterNewUserViewController.swift */; };
+		2875BB0022982AAD00C8844F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875BAFF22982AAD00C8844F /* User.swift */; };
+		2875BB0A22982D7300C8844F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2875BB0922982D7300C8844F /* GoogleService-Info.plist */; };
+		2898A4F5229849B0004A0D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898A4F4229849B0004A0D05 /* ViewController.swift */; };
+		28F8C06B2297FACB00617B27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F8C06A2297FACB00617B27 /* Default-568h@2x.png */; };
 		66F9A07A1E9378426AF147C0 /* Pods_MyCoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F2E7C7D858D8B7612E6C08 /* Pods_MyCoach.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2807B801229455230037A003 /* MyCoach */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyCoach; sourceTree = "<group>"; };
-		2819ECB522930ACB00ABC4A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
+		2807B810229481A50037A003 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = "../../CoachInterface-master/Assets.xcassets/SignOut.imageset/Contents.json"; sourceTree = "<group>"; };
+		2807B8262295B53D0037A003 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		282541762292EB0200A60B1D /* MyCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		282541792292EB0200A60B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2825417E2292EB0200A60B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		282541802292EB0300A60B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282541832292EB0300A60B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		282541852292EB0300A60B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2825418B2292FA9900A60B1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2875BAFD22982A9B00C8844F /* RegisterNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNewUserViewController.swift; sourceTree = "<group>"; };
+		2875BAFF22982AAD00C8844F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2875BB0922982D7300C8844F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2898A4F4229849B0004A0D05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28E0F0B22295B9A900027137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F8C06A2297FACB00617B27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3D5580B0F60DF1FFA1AACC2E /* Pods-MyCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoach.debug.xcconfig"; path = "Target Support Files/Pods-MyCoach/Pods-MyCoach.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F2E7C7D858D8B7612E6C08 /* Pods_MyCoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD400AC344C3C150A714361E /* Pods-MyCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoach.release.xcconfig"; path = "Target Support Files/Pods-MyCoach/Pods-MyCoach.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 		2825416D2292EB0100A60B1D = {
 			isa = PBXGroup;
 			children = (
+				28F8C06A2297FACB00617B27 /* Default-568h@2x.png */,
 				282541782292EB0200A60B1D /* MyCoach */,
 				282541772292EB0200A60B1D /* Products */,
 				5E7F7EA8F071CE5FBAAD28E5 /* Pods */,
@@ -65,16 +74,52 @@
 		282541782292EB0200A60B1D /* MyCoach */ = {
 			isa = PBXGroup;
 			children = (
-				282541792292EB0200A60B1D /* AppDelegate.swift */,
-				2819ECB522930ACB00ABC4A7 /* ViewController.swift */,
-				2807B801229455230037A003 /* MyCoach */,
-				2825417D2292EB0200A60B1D /* Main.storyboard */,
-				282541802292EB0300A60B1D /* Assets.xcassets */,
-				282541822292EB0300A60B1D /* LaunchScreen.storyboard */,
-				2825418B2292FA9900A60B1D /* GoogleService-Info.plist */,
-				282541852292EB0300A60B1D /* Info.plist */,
+				2875BB0922982D7300C8844F /* GoogleService-Info.plist */,
+				28E0F0B22295B9A900027137 /* Info.plist */,
+				2875BB0522982BC200C8844F /* Supporting Files */,
+				2875BB0422982B0800C8844F /* Controller */,
+				28F8C07522980F9400617B27 /* View */,
+				28F8C0762298101700617B27 /* Model */,
+				2807B810229481A50037A003 /* Contents.json */,
 			);
 			path = MyCoach;
+			sourceTree = "<group>";
+		};
+		2875BB0422982B0800C8844F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2807B8262295B53D0037A003 /* HomeViewController.swift */,
+				282541792292EB0200A60B1D /* AppDelegate.swift */,
+				2875BAFD22982A9B00C8844F /* RegisterNewUserViewController.swift */,
+				2898A4F4229849B0004A0D05 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = MyCoach/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		2875BB0522982BC200C8844F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282541822292EB0300A60B1D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F8C07522980F9400617B27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2825417D2292EB0200A60B1D /* Main.storyboard */,
+				282541802292EB0300A60B1D /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28F8C0762298101700617B27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2875BAFF22982AAD00C8844F /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5C9DF1232EC681BCF5D386A4 /* Frameworks */ = {
@@ -154,11 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2807B802229455240037A003 /* MyCoach in Resources */,
+				2807B814229481A50037A003 /* Contents.json in Resources */,
 				282541842292EB0300A60B1D /* LaunchScreen.storyboard in Resources */,
-				2825418C2292FA9900A60B1D /* GoogleService-Info.plist in Resources */,
 				282541812292EB0300A60B1D /* Assets.xcassets in Resources */,
 				2825417F2292EB0200A60B1D /* Main.storyboard in Resources */,
+				28F8C06B2297FACB00617B27 /* Default-568h@2x.png in Resources */,
+				2875BB0A22982D7300C8844F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2819ECB622930ACB00ABC4A7 /* ViewController.swift in Sources */,
 				2825417A2292EB0200A60B1D /* AppDelegate.swift in Sources */,
+				2807B8272295B53D0037A003 /* HomeViewController.swift in Sources */,
+				2875BAFE22982A9B00C8844F /* RegisterNewUserViewController.swift in Sources */,
+				2898A4F5229849B0004A0D05 /* ViewController.swift in Sources */,
+				2875BB0022982AAD00C8844F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A987JY2D3T;
-				INFOPLIST_FILE = MyCoach/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyCoach/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A987JY2D3T;
-				INFOPLIST_FILE = MyCoach/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyCoach/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
